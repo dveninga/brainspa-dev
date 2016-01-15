@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Intensieve training
-active: intensive
+title: Intensive
 class: intensive
-parent: "voor-jou"
+parent: "traject"
 banner: contact.jpg
 published: true
 ---

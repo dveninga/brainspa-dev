@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Analyse
-active: analyse
 class: analyse
-parent: "voor-jou"
 banner: contact.jpg
 published: true
 ---

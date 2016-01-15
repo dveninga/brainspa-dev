@@ -5,7 +5,7 @@ tags:
  - workshop
  - voor-jou
  - zakelijk
-parent: workshop
+parent: Trainingen & workshops
 class: workshop
 permalink: opleiding-neurofeedback-en-lichaamsbewustzijn
 ---

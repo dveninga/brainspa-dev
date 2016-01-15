@@ -217,6 +217,10 @@ prose:
         field:
           element: "hidden"
           value: "nieuws"
+      - name: "parent"
+        field:
+          element: "hidden"
+          value: "nieuws"
       - name: "class"
         field:
           element: "hidden"

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Voor jou
-active: "voor-jou"
 class: "voor-jou"
 banner: contact.jpg
 published: true

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Analyse
-active: analyse
 class: analyse
 parent: kinderen
 banner: kinderen.jpg

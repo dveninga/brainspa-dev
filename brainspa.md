@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Over ons
-active: "over-ons"
-class: "over-ons"
+title: BrainSpa
+class: "brainspa"
 banner: contact.jpg
 published: true
 ---

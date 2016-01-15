@@ -4,7 +4,7 @@ title: Workshop het Kinderbrein
 tags:
  - workshop
  - kinderen
-parent: workshop
+parent: Trainingen & workshops
 class: workshop
 permalink: workshop-het-kinderbrein
 ---

@@ -7,9 +7,9 @@ tags:
 layout: page
 noindex: false
 publish: true
-permalink: "/zakelijk/analyse/analyse-stressmechanismen"
-title: "Analyse Stressmechanismen"
-parent: zakelijk
+permalink: "/analyse/lichamelijk-stressprofiel"
+title: Lichamelijk stressprofiel
+parent: analyse
 banner: zakelijk.jpg
 ---
 Voor een goed persoonlijk functioneren, maar ook voor een optimale hersenfunctie, is het van belang dat het autonoom zenuwstelsel in balans is. Het autonoom zenuwstelsel stuurt lichaamsfuncties aan die vanzelf gaan, zoals ademhaling, hartslag, bloeddruk, spijsvertering en het immuunsysteem. Bij spanning of langdurige stress raakt het evenwicht in het autonoom zenuwstelsel verstoord. Dit heeft op den duur negatieve gevolgen voor de lichamelijke en geestelijke conditie. Het is mogelijk om meer grip te krijgen op ontspanning van het lichaam en opbouw van energie. 

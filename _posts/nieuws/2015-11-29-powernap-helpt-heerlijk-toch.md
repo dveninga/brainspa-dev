@@ -7,6 +7,7 @@ noindex: false
 sitemap: true
 publish: true
 title: "Powernap helpt, heerlijk toch!"
+parent: nieuws
 ---
 
 

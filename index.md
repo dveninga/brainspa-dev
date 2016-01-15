@@ -1,7 +1,6 @@
 ---
 layout: home
 title: home
-active: home
 class: home
 banner: bergen.jpg
 published: true

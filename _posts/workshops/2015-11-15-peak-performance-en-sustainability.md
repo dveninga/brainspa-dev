@@ -4,7 +4,7 @@ title: Peak Performance & Sustainability
 tags:
  - workshop
  - zakelijk
-parent: workshop
+parent: Trainingen & workshops
 class: workshop
 permalink: peak-performance-en-sustainability
 ---

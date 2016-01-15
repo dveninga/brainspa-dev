@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Proces
-active: proces
 class: proces
 parent: onze-aanpak
 banner: kaars.jpg

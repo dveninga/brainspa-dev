@@ -4,6 +4,7 @@ title: "Neurowetenschap bewijst: Meditatie vermindert niet alleen stress, maar v
 tags:
  - nieuws
 class: nieuws
+parent: nieuws
 ---
 Steeds beter begrijpen wetenschappers de heilzame werking van meditatie: meer compassie en levenskwaliteit en minder stress, depressie, bezorgdheid, pijn en slapeloosheid. De Amerikaanse neurowetenschapper Sara Lazar heeft er uitgebreid onderzoek naar gedaan. Haar meest opzienbarende bevinding: na acht weken meditatie verandert het brein en ontstaat er nieuwe grijze massa. The Washington Post had een fascinerend interview met haar.
 

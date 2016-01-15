@@ -7,9 +7,9 @@ tags:
 layout: page
 noindex: false
 publish: true
-permalink: "/zakelijk/analyse/analyse-brein-en-stressmechanismen"
-title: "Analyse Brein- en stressmechanismen"
-parent: zakelijk
+permalink: "/analyse/totale-analyse"
+title: "Totale analyse"
+parent: analyse
 banner: zakelijk.jpg
 ---
 BrainSpa brengt met behulp van onderzoek naar hersenactiviteit en stressmechanismen in het lichaam op unieke wijze in kaart hoe zowel topprestaties als een goede gezondheid samen kunnen gaan. De analyse geeft inzicht in hoe een goed evenwicht kan worden gevonden tussen het functioneren op hoog niveau en het bewaken van vitaliteit en innerlijke harmonie.

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Zakelijk
-active: zakelijk
 class: zakelijk
 banner: zakelijk.jpg
 ---

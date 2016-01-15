@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Kinderen
-active: kinderen
 class: kinderen
 banner: kinderen.jpg
 ---

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Adoptie en hechtingsproblematiek
-active: adoptie
 class: adoptie
 parent: kinderen
 banner: kinderen.jpg

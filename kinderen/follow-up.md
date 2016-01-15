@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Follow up
-active: follow-up
 class: follow-up
 parent: kinderen
 banner: kinderen.jpg

@@ -7,6 +7,7 @@ noindex: false
 sitemap: true
 publish: true
 title: Meditatie verandert brein op korte termijn
+parent: nieuws
 ---
 
 

@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Praktische informatie
-active: "praktische-informatie"
-class: "praktische-informatie"
-parent: "over-ons"
+title: Algemene voorwaarden
+class: "algemene-voorwaarden"
+parent: "brainspa"
 banner: contact.jpg
 published: true
 ---

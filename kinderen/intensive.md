@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Intensieve training
-active: intensive
 class: intensive
 parent: kinderen
 banner: kinderen.jpg

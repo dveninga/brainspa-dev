@@ -1,7 +1,7 @@
 ---
 published: true
 class: workshop
-parent: workshop
+parent: Trainingen & workshops
 layout: workshop
 title: "Brein & Bewustzijn"
 tags: 

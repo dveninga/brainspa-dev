@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Methoden
-active: methoden
 class: methoden
 parent: onze-aanpak
 banner: kaars.jpg
