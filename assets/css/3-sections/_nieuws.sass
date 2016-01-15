@@ -1,0 +1,24 @@
+.content.nieuws
+	.content-wrapper
+		h2
+			margin-top: 0px
+			a
+				color: $text-color
+				+transition(all 300ms ease-in-out)
+				&:active, &:focus, &:hover
+					color: $brand
+
+.share
+	margin-top: 30px
+	margin-bottom: 50px
+	border-bottom: 1px solid $brand
+	text-align: right
+	@media screen and (max-width: $screen-xs-max)
+		text-align: center
+		
+	#shareme
+		.box
+			.social
+				.fa
+					font-size: 1.2em
+					margin-bottom: 0px

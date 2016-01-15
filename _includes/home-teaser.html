@@ -1,0 +1,13 @@
+<header class="container-fluid">
+  <div class="display" {%if page.banner%}style="background-image: url('/assets/img/banners/{{page.banner}}')"{%endif%}></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+      {% for teaser in site.data.teaser %}
+        <h1>{{teaser.title}}</h1>
+        <p class="lead">{{teaser.description}}</p>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,34 @@
+#agenda
+  h2
+    margin-top: 30px
+    @media screen and (max-width: $screen-xs-max)
+      text-align: center
+
+  .agenda-list
+    margin-bottom: 30px
+    .agenda-item
+      +transition(all 300ms ease-in-out)
+      background-color: $input-bg-disabled
+      margin-bottom: 30px
+      padding: 30px
+      ul
+        padding-left: 0px
+      h3
+        margin: 5px 0
+      .btn.btn-primary
+        //width: 100%
+        margin-bottom: 5px
+        //padding: 5px
+        //font-size: 13px
+        //letter-spacing: 1px
+      i.fa
+        width: 15px
+        margin-right: 5px
+        text-align: center
+        font-size: 14px
+      span.date
+        margin-right: 15px
+      .col-md-8
+        text-align: right
+        @media screen and (max-width: $screen-xs-max)
+          padding-top: 30px
