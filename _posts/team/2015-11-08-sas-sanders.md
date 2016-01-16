@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: team
 title: Sas Sanders
 class: team
 tags:

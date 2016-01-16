@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: team
 title: Marion Göttgens
 class: team
 tags:

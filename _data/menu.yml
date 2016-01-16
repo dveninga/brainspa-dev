@@ -28,6 +28,7 @@ level1:
         url: /nazorg
   - title: Trainingen & workshops
     url: /trainingen-en-workshops
+    tag: workshop
   - title: Voor wie
     url: /voor-wie
     level2:
@@ -47,11 +48,13 @@ level1:
         url: /over-ons
       - title: Wie we zijn
         url: /wie-we-zijn
+        tag: team
       - title: Algemene voorwaarden
         url: /algemene-voorwaarden
       - title: Contact
         url: /contact
   - title: Nieuws
     url: /nieuws
+    tag: nieuws
   - title: Contact
     url: /contact

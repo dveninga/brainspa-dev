@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+{% assign page_active = page.title | downcase | replace: ' ', '-' %}
 {% include breadcrumb.html %}
 {% if page.banner %}
 <section class="container-fluid banner"><div class="display" style="background-image: url('/assets/img/banners/{{page.banner}}')"></div></section>
 {% endif %}
-{% if page.active == 'wie-we-zijn' %}
+{% if page_active == 'wie-we-zijn' %}
 <section class="container-fluid {{page.class}}">
 	<div class="container">
 		<div class="row">

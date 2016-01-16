@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: team
 title: Maria Bonarius
 class: team
 tags:

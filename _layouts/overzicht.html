@@ -37,7 +37,7 @@ layout: default
 							<table class="table table-striped vakgebieden">
 								<thead>
 									<tr>
-										<th>#</th>
+										<th>weight</th>
 										<th>live</th>
 										<th>edit</th>
 										<th>titel</th>
@@ -46,12 +46,17 @@ layout: default
 									</tr>
 								</thead>
 								<tbody>
-									{% assign count = 0 %}
-									{% for page in site.pages %}
-									{% if page.layout == 'page' or page.layout == 'nieuws' or page.layout == 'contact' or page.layout == 'home' %}
-									{% assign count = count | plus: 1 %}
+									{% assign sorted_pages = site.pages | sort: "weight" %}
+									{% for page in sorted_pages %}
+									{% if page.layout and page.sitemap != false %}
+									{% if page.parent == null %}
 									<tr>
-										<td>{{count}}</td>
+										<th colspan="3"></th>
+										<th colspan="3">{{page.title}}</th>
+									</tr>
+									{% endif %}
+									<tr>
+										<td>{{page.weight}}</td>
 										<td>{% if page.publish != false %}<i class="fa fa-toggle-on"></i>{% else %}<i class="fa fa-toggle-off"></i>{% endif %}</td>
 										<td><a href="{{cms}}/{{page.path}}"><i class="fa fa-pencil-square-o"></i></a></td>
 										<td><a href="{{page.url}}">{{page.title}}</a></td>

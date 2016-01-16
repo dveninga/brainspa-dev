@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: team
 title: Ives Prgomet
 class: team
 tags:

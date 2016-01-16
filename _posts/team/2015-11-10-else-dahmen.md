@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: team
 title: Else Dahmen
 class: team
 tags:

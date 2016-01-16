@@ -5,6 +5,7 @@ class: "over-ons"
 banner: contact.jpg
 parent: brainspa
 published: true
+weight: 61
 ---
 
 **BrainSpa** is een onafhankelijke organisatie die zich richt op hoog kwalitatieve hulpverlening en persoonlijk maatwerk met als uitgangspunt en expertise; het brein.

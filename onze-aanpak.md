@@ -3,6 +3,7 @@ layout: page
 title: Onze aanpak
 class: onze-aanpak
 banner: kaars.jpg
+weight: 10
 ---
 ##Algemeen
 

@@ -2,27 +2,44 @@
 {% assign page_parent = page.parent | downcase | replace: ' ', '-' %}
 <nav class="navbar-wrapper">
   <div class="navbar navbar-default navbar-static-top">
-    <div class="container">
+    <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a href="/" class="navbar-brand visible-md visible-lg">
-          <img src="/assets/img/logo-header.png"/>
-        </a>
-        <a href="/" class="navbar-brand visible-xs">{{site.data.settings.title}}</a>
+        <button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand visible-md visible-lg"><img src="/assets/img/logo-header.png"/></a><a href="/" class="navbar-brand visible-xs">brainspa</a>
       </div>
-      <div id="navbar" class="navbar-collapse collapse">
+      <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
         {% for menu in site.data.menu.level1 %}
           {% assign menu_active = menu.title | downcase | replace: ' ', '-' %}
-          <li class="{% if page_active == menu_active or page_parent == menu_active %}active{% endif %}{%if menu.class == 'home' %} hidden-sm hidden-md {%endif%}"><a href="{{ menu.url }}">{{ menu.title }}</a></li>
+          {% if menu.level2.size > 0 %}
+          <li class="dropdown">
+            <a href="{{menu.url}}" role="button" aria-haspopup="true" aria-expanded="false" class="hidden-xs dropdown-toggle">{{menu.title}}</a>
+            <a href="{{menu.url}}" class="visible-xs">{{menu.title}}</a>
+            <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="aside"><span class="fa fa-plus visible-xs"></span></a>
+            <ul class="dropdown-menu">
+            {% for submenu in menu.level2 %}
+              <li>
+                <a href="{{menu.url}}{{submenu.url}}">{{submenu.title}}</a>
+                {% if submenu.level3.size > 0 %}
+                -- loop trought level 3--
+<!--                 <ul class="level2">
+                  <li><a href="#">Neuro- en biofeedback</a></li>
+                  <li><a href="#">Coaching</a></li>
+                  <li><a href="#">Cognitieve therapie</a></li>
+                </ul> -->
+                {% endif %}
+              </li>
+            {% endfor %}
+              </li>
+            </ul>
+          </li>
+          {% else %}
+          <li class="{% if page_active == menu_active or page_parent == menu_active %}active{% endif %}{%if menu_active == 'home' %} hidden-sm hidden-md{%endif%}">
+            <a href="{{menu.url}}">{{ menu.title }}</a>
+          </li>
+          {% endif %}
           {% endfor %}
         </ul>
       </div>
     </div>
-  </div>  
+  </div>
 </nav>

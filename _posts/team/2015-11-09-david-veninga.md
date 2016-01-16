@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: team
 title: David Veninga
 class: team
 tags:

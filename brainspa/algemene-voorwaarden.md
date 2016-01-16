@@ -5,6 +5,7 @@ class: "algemene-voorwaarden"
 parent: "brainspa"
 banner: contact.jpg
 published: true
+weight: 63
 ---
 
 

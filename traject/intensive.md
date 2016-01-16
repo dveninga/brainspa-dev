@@ -5,6 +5,7 @@ class: intensive
 parent: "traject"
 banner: contact.jpg
 published: true
+weight: 31
 ---
 
 Wij hebben veel kennis en ervaring omtrent behandeling/training van mensen met onder andere:
