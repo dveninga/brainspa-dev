@@ -2,10 +2,12 @@
 layout: page
 title: Proces
 class: proces
-parent: onze-aanpak
+parent: "onze-aanpak"
 banner: kaars.jpg
 weight: 11
+published: true
 ---
+
 Een traject bij BrainSpa begint met een persoonlijke afstemming en analyse van het brein en lichamelijke stressmechanismen. Daarna volgt een intensieve training van 4 dagen, waarbij in korte periode wordt gewerkt aan een shift in de werking van het brein, stress-herstelmechanismen van het lichaam en de mindset. Hierna volgt een persoonlijk afgestemd follow up traject voor begeleiding in het doorvoeren van het geleerde in het dagelijks leven. Dus het proces is als volgt:
 
 * **Analyse** van hersenactiviteit- en stressmechanismen
@@ -22,12 +24,6 @@ Bij volwassenen duurt de analyse circa 3 uur. Dit onderzoek is als volgt opgebou
 * Meting van hersenactiviteit (QEEG) en stressmechanismen (biofeedback stressprofiel)
 * Directe terugkoppeling van inzichten uit de meting en advies
 
-Bij kinderen duurt de meting circa 2 uur. De duur en opbouw wordt bepaald door de leeftijd van het kind. Gemiddeld genomen is de opbouw als volgt:
-
-* Gezamenlijke kennismaking kind en ouders met kinderneuropsycholoog en coach
-* Het kind wordt  gemeten door de kinderneuropsycholoog
-* Beide ouders hebben op dat moment een intake gesprek met de coach. Zonodig kan één ouder bij het kind blijven.
-* Directe terugkoppeling van inzichten uit de meting en advies.
 
 ##Intensive
 
